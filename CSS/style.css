@@ -1,0 +1,79 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Quicksand&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background: #464646; */
+  background: #E1E8EB;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.m-heading {
+  font-family: "Roboto Slab", serif;
+}
+
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #343A40;
+  transition: 0.5s ease;
+}
+
+.main-container {
+  height: 55vh;
+}
+
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main_row h1 {
+  font-size: 3.5rem;
+}
+
+.main_row img {
+  width: auto;
+  height: auto;
+}
+
+/* About Section */
+.about {
+  background: #c4c4bc;
+  border-radius: 0.5rem;
+  margin-top: 50px;
+}
+
+.card {
+  border-bottom: 8px solid #343A40;
+}
+
+img{
+  padding: 50px;
+}
+
+/* Social Media Section */
+#social-media {
+  background: #c4c4bc;
+}
+
+/* Add color to Social Media Links */
+.media_link {
+  padding: 0.5rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #343A40;
+  border-radius: 0.5rem;
+}
+
+
+
