@@ -1,6 +1,6 @@
 /* font */
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Quicksand&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -22,7 +22,7 @@ body {
 
 .navigation-link:hover {
   text-decoration: none;
-  border-bottom: 2px solid #343A40;
+  border-bottom: 2px solid #343a40;
   transition: 0.5s ease;
 }
 
@@ -35,7 +35,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 
 .main_row h1 {
   font-size: 3.5rem;
@@ -55,16 +54,11 @@ body {
 }
 
 .card {
-  border-bottom: 8px solid #343A40;
+  border-bottom: 8px solid #343a40;
 }
 
-img{
+img {
   padding: 60px;
-  
-
-/* Social Media Section */
-#social-media {
-  background: #c4c4bc;
 }
 
 /* Add color to Social Media Links */
@@ -72,15 +66,14 @@ img{
   padding: 0.5rem;
   max-width: 15rem;
   margin-left: 1rem;
-  border: 2px solid #343A40;
+  border: 2px solid #343a40;
   border-radius: 0.5rem;
 }
 
-.img-fluid{
+.img-fluid {
   height: auto;
   width: auto;
 }
-.contact-tab{
+.contact-tab {
   margin-top: -30;
 }
-
